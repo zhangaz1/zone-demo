@@ -21,6 +21,7 @@
     },
     "homepage": "https://github.com/zhangaz1/zone-demo#readme",
     "dependencies": {
+        "@types/node": "^10.11.0",
         "zone.js": "^0.8.26"
     }
 }
