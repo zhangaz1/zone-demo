@@ -24,7 +24,13 @@ export default function zoneInTimeout() {
 			applyArgs: any[],
 		) {
 			let startTime = now(),
-				result = parentDelegate.invokeTask(targetZone, task, applyThis, applyArgs);
+				result = parentDelegate.invokeTask(
+					targetZone,
+					task,
+					applyThis,
+					applyArgs
+				);
+			// console.log(arguments);
 			console.log(`${task.source} 耗时 ${now() - startTime}ms `, task.data);
 			return result;
 		}
