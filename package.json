@@ -20,5 +20,7 @@
         "url": "https://github.com/zhangaz1/zone-demo/issues"
     },
     "homepage": "https://github.com/zhangaz1/zone-demo#readme",
-    "dependencies": {}
+    "dependencies": {
+        "zone.js": "^0.8.26"
+    }
 }
