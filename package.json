@@ -1,0 +1,24 @@
+{
+    "name": "zone-demo",
+    "version": "0.0.0",
+    "description": "zone demo",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon",
+        "start:back": "nodemon --watch './src/index.ts' --ignore './src/*.spec.ts' --exec ts-node ./src/index.ts",
+        "watch": "nodemon -e ts -w ./src -x npm run watch:serve",
+        "watch:serve": "ts-node ./src/index.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zhangaz1/zone-demo.git"
+    },
+    "author": "zhangaz1",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/zhangaz1/zone-demo/issues"
+    },
+    "homepage": "https://github.com/zhangaz1/zone-demo#readme",
+    "dependencies": {}
+}
